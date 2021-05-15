@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1300
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ml_ht", "ml_ht.csproj", "{53DB91AF-2076-4F4F-8560-BC62C64DCA52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53DB91AF-2076-4F4F-8560-BC62C64DCA52}.Debug|x64.ActiveCfg = Debug|x64
+		{53DB91AF-2076-4F4F-8560-BC62C64DCA52}.Debug|x64.Build.0 = Debug|x64
+		{53DB91AF-2076-4F4F-8560-BC62C64DCA52}.Release|x64.ActiveCfg = Release|x64
+		{53DB91AF-2076-4F4F-8560-BC62C64DCA52}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56849B10-726B-442E-B2BD-6F74EA554E3D}
+	EndGlobalSection
+EndGlobal
