@@ -1,6 +1,8 @@
 # Head Turn
 MelonLoader mod for VRChat that allows to turn head regardless of body rotation. Slightly similar to ChilloutVR head turning.
 
+[![](.github/img_01.png)](https://youtu.be/ER8wQ2f6N_I)
+
 # Installation
 * Install [MelonLoader 0.3.0-ALPHA](https://github.com/LavaGang/MelonLoader).
 * Get [latest release DLL](../../releases/latest).
