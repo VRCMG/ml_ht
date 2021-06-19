@@ -91,14 +91,14 @@
         }
 
         // Join patch
-        [Harmony.HarmonyPatch(typeof(NetworkManager), "OnJoinedRoom")]
+        [HarmonyLib.HarmonyPatch(typeof(NetworkManager), nameof(NetworkManager.OnJoinedRoom))]
         class Patch_NetworkManager_OnJoinedRoom
         {
             static void Postfix() => ms_update = true;
         }
 
         // Left patch
-        [Harmony.HarmonyPatch(typeof(NetworkManager), "OnLeftRoom")]
+        [HarmonyLib.HarmonyPatch(typeof(NetworkManager), nameof(NetworkManager.OnLeftRoom))]
         class Patch_NetworkManager_OnOnLeftRoom
         {
             static void Postfix()
